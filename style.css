@@ -1,0 +1,212 @@
+h1 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    text-align: left;
+    font-size: 44px;
+}
+
+body {
+    color: #292929;
+    margin: 0px;
+    padding: 0px
+}
+
+.container {
+    margin: 0px auto;
+    width: 680px;
+    text-align: center
+}
+
+img {
+    width: 100%
+}
+
+p {
+    font-family: 'Noticia Text', serif;
+    text-align: left;
+    font-size: 19px;
+    line-height: 32px;
+}
+
+h3 {
+    font-family: 'Noticia Text', serif;
+    font-weight: 600;
+    text-align: left;
+    font-size: 21px;
+    font-style: italic;
+    margin: 30px 0px;
+}
+
+h2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-align: left;
+    font-size: 22px;
+    margin: 50px 0px;
+}
+
+.three-points {
+    font-family: 'Noticia Text', serif;
+    text-align: middle;
+    font-size: 25px;
+    letter-spacing: 20px;
+    margin: 40px 0px
+}
+
+.highlight {
+    background-color: #E7F3E7;
+}
+
+.highlight:hover {
+    background-color: #b0d1b0;
+    cursor: pointer;
+}
+
+.top-banner,
+.bottom-banner {
+    height: auto;
+    /* background-color: lightgrey; */
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side-banner {
+    /* background-color: lightsalmon; */
+    width: 600px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.right-side-banner {
+    /* background-color: limegreen; */
+    width: 250px;
+}
+
+.little-round {
+    width: 30px;
+    border-radius: 50px;
+}
+
+.logos-banner {
+    height: 25px;
+    width: auto
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0px 10px 0px 0px;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #757575;
+}
+
+#username {
+    color: #1A8917;
+}
+
+ul:hover {
+    cursor: pointer;
+}
+
+.hands {
+    width: 30px
+}
+
+.hands:hover {
+    transition: all .3s;
+    opacity: 0.5;
+}
+
+.upvotes:hover {
+    transition: all .15s;
+    color: rgb(58, 58, 58);
+}
+
+.top-content {
+    border-bottom: rgb(226, 226, 226) solid 1px;
+    height: 115px;
+}
+
+.top-container {
+    width: 78%;
+    height: 115px;
+    /* background-color: blue; */
+    margin: 0px auto;
+    text-align: center
+}
+
+.top-left-banner {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    padding-top: 30px;
+}
+
+.top-right-banner {
+    /* background-color: limegreen; */
+    width: 250px;
+    padding-top: 40px;
+}
+
+#top-username {
+    font-family: 'Lato', sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    color: rgb(24, 24, 24);
+}
+
+.li-banner {
+    padding: 0px 25px 0px 0px;
+}
+
+.top-li {
+    font-size: 17px;
+    padding-top: 8px;
+    font-weight: 500;
+}
+
+.top-li:hover {
+    transition: all .15s;
+    color: rgb(58, 58, 58);
+}
+
+button {
+    /* padding: 10px 5px; */
+    height: 37px;
+    padding: 0px 15px;
+    background-color: #148310;
+    color: white;
+    border-radius: 18px;
+    border: none;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    background-color: #116e0e;
+    cursor: pointer;
+}
+
+.btn-mail {
+    height: 37px;
+    width: 37px;
+    /* padding: 0px 0px; */
+    text-align: left;
+    padding-left: 12px;
+}
+
+.last-btn {
+    padding-right: 0px;
+}
